@@ -1,0 +1,33 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.body {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 10%;
+  left: 10%;
+}
+
+.phrase {
+  flex-grow: 1;
+}
+
+.title {
+  color: black;
+  position: absolute;
+  top: 0%;
+  left: 3%;
+}
+
+.arrow {
+  color: black;
+  position: absolutes;
+  font-size: 2em;
+  color: #ccc;
+  padding-left: 2em
+}
+.arrow:hover{
+  transform: scale(1.1);
+}
